@@ -1,4 +1,4 @@
-use this code <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,6 +11,20 @@ use this code <!DOCTYPE html>
             margin: 0;
             padding: 10px;
             background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ff0000;
+            color: white;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
         }
         h1 {
             font-size: 2.5em;
@@ -62,10 +76,24 @@ use this code <!DOCTYPE html>
             width: 80%;
             max-width: 300px;
         }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="#contact">Contact</a>
+            <a href="#about">About Us</a>
+            <a href="#our-bobcorn">Our Bobcorn</a>
+        </nav>
+    </header>
     <h1>Bobcorn</h1>
+    <img src="bob" alt="Bobcorn Image">
     <p>the boblicious popcorn and its healthy. Welcome to Bobcorn, where we bring you the tastiest, healthiest popcorn right to your door! Our popcorn is made with the finest ingredients, ensuring a delightful snack that’s good for you too. Whether you're enjoying a movie night or a quick treat, Bobcorn has got you covered. We pride ourselves on our unique flavors and commitment to quality, making every bite a burst of joy. Our process involves carefully selecting the best corn kernels and popping them to perfection, all while keeping health in mind. No artificial flavors, just pure, natural goodness!</p>
     <p></p>
     <button onclick="showPopup()">Order Bobcorn</button>
@@ -110,5 +138,4 @@ use this code <!DOCTYPE html>
         }
     </script>
 </body>
-</html>          but add the top saying with the writing contact about us our bobcorn this is added in github if i add the image to the file there and it will be called bob
-  
+</html>
